@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prajwal_app *.css
+recursive-include prajwal_app *.csv
+recursive-include prajwal_app *.html
+recursive-include prajwal_app *.ico
+recursive-include prajwal_app *.js
+recursive-include prajwal_app *.json
+recursive-include prajwal_app *.md
+recursive-include prajwal_app *.png
+recursive-include prajwal_app *.py
+recursive-include prajwal_app *.svg
+recursive-include prajwal_app *.txt
+recursive-exclude prajwal_app *.pyc
